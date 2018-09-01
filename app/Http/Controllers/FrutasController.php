@@ -25,7 +25,7 @@ class FrutasController extends Controller
         die();*/
 //        return 'El nombre de la fruta es '.$data['nombre'] .' y la descripcion sería '. $data['descripcion'];
         return 'El nombre de la fruta es '.$request->input('nombre');//dos formas
-        
+
     }
 
 }
